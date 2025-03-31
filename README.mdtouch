@@ -1,0 +1,12 @@
+index.html
+src/App.js
+README.mdnpm
+install
+--save-dev
+webpack
+webpack-cli
+webpack-dev-server
+babel-loader
+@babel/core
+@babel/preset-env
+@babel/preset-react

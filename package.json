@@ -1,0 +1,40 @@
+{
+    "name": "virtual-english-learning",
+    "version": "1.0.0",
+    "description": "虚拟人英语单词学习平台 - 一个基于 React 的英语学习应用",
+    "main": "index.js",
+    "homepage": "https://zhuzhzzz.github.io/virtual-english-learning",
+    "scripts": {
+        "start": "webpack serve --mode development",
+        "build": "webpack --mode production",
+        "deploy": "gh-pages -d dist"
+    },
+    "keywords": [
+        "react",
+        "english-learning",
+        "education",
+        "web-app"
+    ],
+    "author": "Zhu Zhenhua",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.22.0",
+        "bootstrap": "^5.3.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.23.9",
+        "@babel/preset-env": "^7.23.9",
+        "@babel/preset-react": "^7.23.9",
+        "babel-loader": "^9.1.3",
+        "css-loader": "^6.10.0",
+        "html-webpack-plugin": "^5.6.0",
+        "style-loader": "^3.3.4",
+        "webpack": "^5.90.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1",
+        "gh-pages": "^6.1.1"
+    },
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

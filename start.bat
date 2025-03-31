@@ -1,0 +1,6 @@
+@echo off
+echo 正在安装依赖...
+npm install
+echo 正在启动项目...
+npm start
+pause 
