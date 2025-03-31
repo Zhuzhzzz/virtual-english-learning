@@ -69,7 +69,7 @@ function App() {
 
       <footer className="footer mt-auto py-3 bg-light">
         <div className="container text-center">
-          <span className="text-muted">© 2024 虚拟人英语单词学习平台</span>
+          <span className="text-muted">© 2025 虚拟人英语单词学习平台</span>
         </div>
       </footer>
     </div>
